@@ -1,50 +1,50 @@
 ### Persona 1: O Estudante Universitário
 
 * **Nome:** Rafael Costa
-* **Perfil:** 21 anos, aluno do 5º período de Engenharia. Estuda em período integral e concilia as aulas com um estágio meio período. [cite_start]Acessa sistemas majoritariamente pelo celular. [cite: 39]
-* [cite_start]**Função no sistema:** Usuário consumidor – realiza matrículas, consulta notas e faltas, emite boletos e baixa materiais de estudo. [cite: 39]
-* **Nível de conhecimento tecnológico:** Avançado. [cite_start]É um nativo digital, acostumado com aplicativos ágeis, e tem tolerância quase zero para sistemas que não são responsivos ou demoram a carregar. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Conseguir realizar sua matrícula nas disciplinas desejadas rapidamente e sem perder a vaga. [cite: 39]
-    * [cite_start]Acompanhar seu desempenho acadêmico (notas e faltas) em tempo real pelo smartphone. [cite: 39]
-    * [cite_start]Resolver pendências burocráticas sem precisar enfrentar filas na secretaria física. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Fica extremamente irritado quando o sistema cai por instabilidade durante o período de matrícula (alto fluxo de usuários). [cite: 39]
-    * [cite_start]Acha a interface muito complexa e não adaptada para telas menores (mobile), exigindo muito zoom e rolagem. [cite: 39]
-    * [cite_start]Sofre com a lentidão excessiva apenas para baixar um simples PDF de material de aula. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Acessar o portal correndo no primeiro minuto de abertura das matrículas. [cite: 39]
-    * [cite_start]Verificar as notas finais pelo celular enquanto está no transporte público. [cite: 39]
-* **Resumo da persona:** Rafael precisa de um sistema rápido, perfeitamente adaptado para o celular e que seja à prova de quedas durante períodos críticos. [cite_start]Para ele, a tecnologia deve ser invisível e eficiente. [cite: 39]
+* **Perfil:** 21 anos, aluno do 5º período de Engenharia. Estuda em período integral e concilia as aulas com um estágio meio período. Acessa sistemas majoritariamente pelo celular. 
+* **Função no sistema:** Usuário consumidor – realiza matrículas, consulta notas e faltas, emite boletos e baixa materiais de estudo. 
+* **Nível de conhecimento tecnológico:** Avançado. É um nativo digital, acostumado com aplicativos ágeis, e tem tolerância quase zero para sistemas que não são responsivos ou demoram a carregar. 
+* **Objetivos e motivações:** * Conseguir realizar sua matrícula nas disciplinas desejadas rapidamente e sem perder a vaga. 
+    * Acompanhar seu desempenho acadêmico (notas e faltas) em tempo real pelo smartphone. 
+    * Resolver pendências burocráticas sem precisar enfrentar filas na secretaria física. 
+* **Frustrações / dores:** * Fica extremamente irritado quando o sistema cai por instabilidade durante o período de matrícula (alto fluxo de usuários). 
+    * Acha a interface muito complexa e não adaptada para telas menores (mobile), exigindo muito zoom e rolagem. 
+    * Sofre com a lentidão excessiva apenas para baixar um simples PDF de material de aula. 
+* **Cenários de uso típicos:** * Acessar o portal correndo no primeiro minuto de abertura das matrículas. 
+    * Verificar as notas finais pelo celular enquanto está no transporte público. 
+* **Resumo da persona:** Rafael precisa de um sistema rápido, perfeitamente adaptado para o celular e que seja à prova de quedas durante períodos críticos. Para ele, a tecnologia deve ser invisível e eficiente. 
 
 ---
 
 ### Persona 2: A Professora
 
 * **Nome:** Profa. Helena Martins
-* **Perfil:** 45 anos, professora titular que ministra aulas teóricas e práticas para diversas turmas. [cite_start]Tem uma rotina intensa, dividindo-se entre preparo de aulas, correções e pesquisas acadêmicas. [cite: 39]
-* [cite_start]**Função no sistema:** Usuária criadora e gestora de conteúdo da disciplina – lança notas, registra presenças, faz upload de materiais e envia comunicados às turmas. [cite: 39]
-* **Nível de conhecimento tecnológico:** Intermediário. [cite_start]Utiliza bem o computador e softwares de escritório no dia a dia, mas se sente insegura e perde muito tempo quando se depara com interfaces pouco intuitivas ou cheias de menus escondidos. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Lançar notas e presenças de turmas grandes da forma mais eficiente possível para focar na docência. [cite: 39]
-    * [cite_start]Manter a comunicação clara com os alunos e centralizar o material didático em um só lugar seguro. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Perde horas preciosas tentando descobrir como operar uma interface engessada e complexa para tarefas simples, como fechar o diário de classe. [cite: 39]
-    * [cite_start]A implementação técnica inadequada faz com que o sistema frequentemente trave e não salve as notas que ela acabou de digitar, obrigando-a a refazer o trabalho. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Lançamento em lote de notas e frequências na semana de fechamento do semestre (período de alta lentidão). [cite: 39]
-    * [cite_start]Upload de múltiplos arquivos e planos de ensino nas semanas que antecedem o início das aulas. [cite: 39]
-* [cite_start]**Resumo da persona:** Helena precisa de uma interface limpa, onde as tarefas repetitivas (como chamada e notas) exijam o mínimo de cliques possíveis, além de um sistema estável que lhe passe confiança de que seu trabalho não será perdido. [cite: 39]
+* **Perfil:** 45 anos, professora titular que ministra aulas teóricas e práticas para diversas turmas. Tem uma rotina intensa, dividindo-se entre preparo de aulas, correções e pesquisas acadêmicas. 
+* **Função no sistema:** Usuária criadora e gestora de conteúdo da disciplina – lança notas, registra presenças, faz upload de materiais e envia comunicados às turmas. 
+* **Nível de conhecimento tecnológico:** Intermediário. Utiliza bem o computador e softwares de escritório no dia a dia, mas se sente insegura e perde muito tempo quando se depara com interfaces pouco intuitivas ou cheias de menus escondidos. 
+* **Objetivos e motivações:** * Lançar notas e presenças de turmas grandes da forma mais eficiente possível para focar na docência. 
+    * Manter a comunicação clara com os alunos e centralizar o material didático em um só lugar seguro. 
+* **Frustrações / dores:** * Perde horas preciosas tentando descobrir como operar uma interface engessada e complexa para tarefas simples, como fechar o diário de classe. 
+    * A implementação técnica inadequada faz com que o sistema frequentemente trave e não salve as notas que ela acabou de digitar, obrigando-a a refazer o trabalho. 
+* **Cenários de uso típicos:** * Lançamento em lote de notas e frequências na semana de fechamento do semestre (período de alta lentidão). 
+    * Upload de múltiplos arquivos e planos de ensino nas semanas que antecedem o início das aulas. 
+* **Resumo da persona:** Helena precisa de uma interface limpa, onde as tarefas repetitivas (como chamada e notas) exijam o mínimo de cliques possíveis, além de um sistema estável que lhe passe confiança de que seu trabalho não será perdido. 
 
 ---
 
 ### Persona 3: O Gestor Acadêmico (Coordenador)
 
 * **Nome:** Carlos Almeida
-* **Perfil:** 52 anos, coordenador de cursos de graduação. [cite_start]Lida diretamente com a gestão de turmas, alocação de professores e análise de evasão e desempenho dos alunos. [cite: 39]
-* [cite_start]**Função no sistema:** Usuário administrador e estratégico – extrai relatórios, gerencia a oferta de disciplinas, aprova requerimentos de alunos e ajusta as grades curriculares. [cite: 39]
-* **Nível de conhecimento tecnológico:** Básico a intermediário. Prefere sistemas objetivos e funcionais que entreguem a informação mastigada. [cite_start]Não tem paciência para buscar dados fragmentados em diferentes telas. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Ter uma visão panorâmica e em tempo real sobre a saúde acadêmica do curso (turmas lotadas, vazias, requerimentos pendentes). [cite: 39]
-    * [cite_start]Tomar decisões gerenciais rápidas baseadas em dados fáceis de acessar. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Sente enorme falta de funcionalidades relevantes de gestão, como *dashboards* ou relatórios cruzados, precisando fazer o trabalho manualmente em planilhas externas. [cite: 39]
-    * [cite_start]Durante as quedas do sistema por alto fluxo, sua sala vira um caos com dezenas de alunos tentando resolver problemas de matrícula presencialmente. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Geração de relatórios consolidados de matrículas para verificar a necessidade de abrir ou fechar turmas extras. [cite: 39]
-    * [cite_start]Aprovação diária de requerimentos acadêmicos, como quebra de pré-requisitos e validação de horas complementares. [cite: 39]
-* [cite_start]**Resumo da persona:** Carlos precisa de um sistema robusto que não apenas armazene dados, mas entregue inteligência e funcionalidades de gestão relevantes, além de suportar o volume de acessos para evitar que o atendimento online vire um gargalo físico na secretaria. [cite: 39]
+* **Perfil:** 52 anos, coordenador de cursos de graduação. Lida diretamente com a gestão de turmas, alocação de professores e análise de evasão e desempenho dos alunos. 
+* **Função no sistema:** Usuário administrador e estratégico – extrai relatórios, gerencia a oferta de disciplinas, aprova requerimentos de alunos e ajusta as grades curriculares. 
+* **Nível de conhecimento tecnológico:** Básico a intermediário. Prefere sistemas objetivos e funcionais que entreguem a informação mastigada. Não tem paciência para buscar dados fragmentados em diferentes telas. 
+* **Objetivos e motivações:** * Ter uma visão panorâmica e em tempo real sobre a saúde acadêmica do curso (turmas lotadas, vazias, requerimentos pendentes). 
+    * Tomar decisões gerenciais rápidas baseadas em dados fáceis de acessar. 
+* **Frustrações / dores:** * Sente enorme falta de funcionalidades relevantes de gestão, como *dashboards* ou relatórios cruzados, precisando fazer o trabalho manualmente em planilhas externas. 
+    * Durante as quedas do sistema por alto fluxo, sua sala vira um caos com dezenas de alunos tentando resolver problemas de matrícula presencialmente. 
+* **Cenários de uso típicos:** * Geração de relatórios consolidados de matrículas para verificar a necessidade de abrir ou fechar turmas extras. 
+    * Aprovação diária de requerimentos acadêmicos, como quebra de pré-requisitos e validação de horas complementares. 
+* **Resumo da persona:** Carlos precisa de um sistema robusto que não apenas armazene dados, mas entregue inteligência e funcionalidades de gestão relevantes, além de suportar o volume de acessos para evitar que o atendimento online vire um gargalo físico na secretaria. 
 
 ---
 
