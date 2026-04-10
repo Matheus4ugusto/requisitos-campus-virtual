@@ -1,194 +1,259 @@
 # User:
 
-Você é um especialista em UX Research e Design de Produto.
-Com base no problema descrito abaixo e utilizando a estrutura de persona presente no documento anexado como referência, identifique e descreva possíveis personas que representem os usuários do sistema.
-Cada persona deve seguir a mesma estrutura apresentada no documento, incluindo os campos principais (como nome fictício, perfil, objetivos, frustrações, necessidades e contexto de uso).
-
-Problema a ser resolvido
-O sistema atual apresenta baixa adesão por parte da comunidade acadêmica devido a diversos problemas que afetam a experiência do usuário, tais como:
-
-Interface complexa e pouco intuitiva
-Falta de funcionalidades relevantes
-Implementação técnica inadequada
-Lentidão do sistema
-Falta de estabilidade quando há alto fluxo de usuários
-Esses fatores prejudicam o uso do sistema por estudantes, professores e gestores acadêmicos.
-
-Tarefa
-Identifique quais tipos de usuários (personas) existem nesse contexto.
-Crie 3 a 5 personas diferentes representando os principais perfis da comunidade acadêmica.
-Estruture cada persona seguindo o modelo do documento anexado.
-Para cada persona inclua:
-Nome fictício
-Papel na comunidade acadêmica
-Objetivos ao utilizar o sistema
-Principais dores/frustrações
-Necessidades
-Nível de familiaridade com tecnologia
-Cenário típico de uso
-Objetivo
-As personas devem ajudar a entender melhor os usuários do sistema e orientar melhorias de UX, desempenho e funcionalidades.
+Produza um detalhamento completo de todas as personas do software com 3 personas para cada ator do campus, as personas sendo: Alguem familiarizado com tecnologia, alguem não familiarizado com tecnologia e alguem com deficiencia visual. Exemplo nos slides 5 e 6 dos slides da aula 4.
 
 # Model:
 
-Como especialista em UX Research e Design de Produto, compreendo perfeitamente o desafio que você tem em mãos. Quando um sistema apresenta problemas crônicos de usabilidade, estabilidade e falta de funcionalidades, a adesão despenca, pois o usuário sente que a ferramenta é um obstáculo, e não um facilitador. 
-
-Para resolvermos isso, precisamos colocar as necessidades dessas pessoas no centro das decisões. [cite_start]Com base no problema que você descreveu (lentidão, instabilidade em picos de uso, interface complexa e falta de funcionalidades relevantes) e utilizando a estrutura de elementos de persona[cite: 38, 39], estruturei 3 personas principais que representam a comunidade acadêmica. 
-
-Aqui estão elas:
+[cite_start]Com base no escopo e no público-alvo do sistema **Campus Virtual** [cite: 352, 353, 354][cite_start], bem como no modelo de personas apresentado na aula de Especificação de Requisitos[cite: 10, 169], abaixo apresento o detalhamento de 9 personas. Foram definidos os três atores principais do sistema (Alunos, Professores e Gestores Acadêmicos), com três perfis distintos para cada um: familiarizado com tecnologia, não familiarizado com tecnologia e com deficiência visual.
 
 ---
 
-### Persona 1: O Estudante Universitário
+### Ator 1: Alunos
+[cite_start]*Usuários principais que se beneficiam de um ambiente interativo e acessível.* [cite: 352, 385]
 
-* **Nome:** Rafael Costa
-* **Perfil:** 21 anos, aluno do 5º período de Engenharia. Estuda em período integral e concilia as aulas com um estágio meio período. [cite_start]Acessa sistemas majoritariamente pelo celular. [cite: 39]
-* [cite_start]**Função no sistema:** Usuário consumidor – realiza matrículas, consulta notas e faltas, emite boletos e baixa materiais de estudo. [cite: 39]
-* **Nível de conhecimento tecnológico:** Avançado. [cite_start]É um nativo digital, acostumado com aplicativos ágeis, e tem tolerância quase zero para sistemas que não são responsivos ou demoram a carregar. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Conseguir realizar sua matrícula nas disciplinas desejadas rapidamente e sem perder a vaga. [cite: 39]
-    * [cite_start]Acompanhar seu desempenho acadêmico (notas e faltas) em tempo real pelo smartphone. [cite: 39]
-    * [cite_start]Resolver pendências burocráticas sem precisar enfrentar filas na secretaria física. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Fica extremamente irritado quando o sistema cai por instabilidade durante o período de matrícula (alto fluxo de usuários). [cite: 39]
-    * [cite_start]Acha a interface muito complexa e não adaptada para telas menores (mobile), exigindo muito zoom e rolagem. [cite: 39]
-    * [cite_start]Sofre com a lentidão excessiva apenas para baixar um simples PDF de material de aula. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Acessar o portal correndo no primeiro minuto de abertura das matrículas. [cite: 39]
-    * [cite_start]Verificar as notas finais pelo celular enquanto está no transporte público. [cite: 39]
-* **Resumo da persona:** Rafael precisa de um sistema rápido, perfeitamente adaptado para o celular e que seja à prova de quedas durante períodos críticos. [cite_start]Para ele, a tecnologia deve ser invisível e eficiente. [cite: 39]
+#### 1. Familiarizado com Tecnologia
+**Lucas Martins**
+* **Perfil:** 20 anos, estudante de Engenharia de Computação. [cite_start]Acessa o Campus Virtual a todo instante, mesclando o uso entre um notebook potente e seu smartphone[cite: 352].
+* [cite_start]**Função no sistema:** Usuário consumidor – envia atividades, responde provas online, baixa conteúdos e interage com notificações automáticas[cite: 355, 360].
+* **Nível de conhecimento tecnológico:** Avançado. Nativo digital, espera que as interfaces funcionem de maneira muito rápida e domina atalhos no teclado.
+* **Objetivos e motivações:**
+    * [cite_start]Visualizar as notas e contestá-las de forma ágil[cite: 357].
+    * [cite_start]Receber recomendações de conteúdos baseadas em suas dificuldades[cite: 361].
+    * [cite_start]Fazer download de conteúdos em vídeo para acesso offline no trajeto da faculdade[cite: 360, 361].
+* **Frustrações / dores:**
+    * [cite_start]Fica muito frustrado com instabilidade no sistema em dias de entrega de grandes trabalhos[cite: 348].
+    * [cite_start]Odeia interfaces complexas que exigem muitos cliques para enviar um simples anexo[cite: 348].
+* **Cenários de uso típicos:**
+    * [cite_start]Enviar o arquivo da atividade pelo celular de madrugada[cite: 355].
+    * [cite_start]Usar os fóruns públicos para ajudar colegas com dúvidas em disciplinas[cite: 358].
+* **Resumo da persona:** Lucas precisa de um sistema rápido, de alta disponibilidade e com notificações em tempo real, que acompanhe o seu ritmo acelerado e otimize o seu aprendizado prático.
+
+#### 2. Não Familiarizado com Tecnologia
+**Carlos Silva**
+* **Perfil:** 48 anos, estudante de Administração no período noturno, voltando a estudar após 20 anos. Utiliza o computador da biblioteca e o celular.
+* [cite_start]**Função no sistema:** Usuário consumidor – consome os materiais da disciplina e verifica seu andamento no curso[cite: 352].
+* **Nível de conhecimento tecnológico:** Básico. Sente insegurança ao utilizar plataformas educacionais e teme "apagar alguma coisa" por engano.
+* **Objetivos e motivações:**
+    * [cite_start]Encontrar os materiais de estudo compartilhados de forma fácil[cite: 358].
+    * [cite_start]Enviar atividades corretamente, com confirmação visual de sucesso[cite: 355].
+    * [cite_start]Ter facilidade para enviar dúvidas privadas ao professor[cite: 358].
+* **Frustrações / dores:**
+    * [cite_start]Interface com muitos jargões acadêmicos ou excesso de menus o deixa paralisado e confuso[cite: 348].
+    * [cite_start]Não entende como funciona a contestação de faltas ou como agendar provas substitutivas online[cite: 359, 360].
+* **Cenários de uso típicos:**
+    * [cite_start]Verificar a sua frequência e notas no final da semana[cite: 357, 359].
+    * [cite_start]Responder a atividades propostas com um documento de texto simples[cite: 355].
+* **Resumo da persona:** Carlos necessita de uma plataforma de design intuitivo, com fluxos lineares, comunicação fácil com o docente e que dê segurança em suas interações.
+
+#### 3. Com Deficiência Visual
+**Amanda Costa**
+* **Perfil:** 24 anos, estudante de Direito, cega, acessa a plataforma via notebook utilizando leitor de tela (como o NVDA).
+* [cite_start]**Função no sistema:** Usuário consumidor – participa do aprendizado prático e avaliações[cite: 352].
+* **Nível de conhecimento tecnológico:** Avançado no uso de ferramentas de acessibilidade.
+* **Objetivos e motivações:**
+    * [cite_start]Ter acesso aos materiais de estudo com textos legíveis pelo leitor de tela[cite: 358].
+    * [cite_start]Realizar provas e testes online com autonomia e sem precisar de um transcritor[cite: 356].
+    * [cite_start]Receber notificações claras sobre compromissos automatizados da universidade[cite: 360].
+* **Frustrações / dores:**
+    * Material didático postado em forma de imagens não lidas pelo sistema.
+    * Botões sem descrição (rótulo) ou fluxos que impedem a navegação apenas por teclado.
+* **Cenários de uso típicos:**
+    * [cite_start]Consultar sua frequência escolar e fazer o download de textos para estudo[cite: 359, 361].
+    * [cite_start]Enviar uma dúvida ao fórum acadêmico e interagir com os retornos[cite: 358].
+* **Resumo da persona:** Amanda depende exclusivamente de uma plataforma responsiva e acessível (com adequação WCAG) para conduzir sua formação com autonomia e sem barreiras tecnológicas.
 
 ---
 
-### Persona 2: A Professora
+### Ator 2: Professores
+[cite_start]*Responsáveis pela gestão de disciplinas e atividades, facilitando o ensino.* [cite: 353, 386]
 
-* **Nome:** Profa. Helena Martins
-* **Perfil:** 45 anos, professora titular que ministra aulas teóricas e práticas para diversas turmas. [cite_start]Tem uma rotina intensa, dividindo-se entre preparo de aulas, correções e pesquisas acadêmicas. [cite: 39]
-* [cite_start]**Função no sistema:** Usuária criadora e gestora de conteúdo da disciplina – lança notas, registra presenças, faz upload de materiais e envia comunicados às turmas. [cite: 39]
-* **Nível de conhecimento tecnológico:** Intermediário. [cite_start]Utiliza bem o computador e softwares de escritório no dia a dia, mas se sente insegura e perde muito tempo quando se depara com interfaces pouco intuitivas ou cheias de menus escondidos. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Lançar notas e presenças de turmas grandes da forma mais eficiente possível para focar na docência. [cite: 39]
-    * [cite_start]Manter a comunicação clara com os alunos e centralizar o material didático em um só lugar seguro. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Perde horas preciosas tentando descobrir como operar uma interface engessada e complexa para tarefas simples, como fechar o diário de classe. [cite: 39]
-    * [cite_start]A implementação técnica inadequada faz com que o sistema frequentemente trave e não salve as notas que ela acabou de digitar, obrigando-a a refazer o trabalho. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Lançamento em lote de notas e frequências na semana de fechamento do semestre (período de alta lentidão). [cite: 39]
-    * [cite_start]Upload de múltiplos arquivos e planos de ensino nas semanas que antecedem o início das aulas. [cite: 39]
-* [cite_start]**Resumo da persona:** Helena precisa de uma interface limpa, onde as tarefas repetitivas (como chamada e notas) exijam o mínimo de cliques possíveis, além de um sistema estável que lhe passe confiança de que seu trabalho não será perdido. [cite: 39]
+#### 1. Familiarizado com Tecnologia
+**Roberto Almeida**
+* **Perfil:** 35 anos, professor de programação. Tem uma rotina agitada e trabalha sempre em seu notebook pessoal.
+* [cite_start]**Função no sistema:** Usuário produtor – responsável por criar, modificar e excluir disciplinas, gerir notas e atividades[cite: 355, 356].
+* **Nível de conhecimento tecnológico:** Avançado. Entusiasta de automação e inovações pedagógicas.
+* **Objetivos e motivações:**
+    * [cite_start]Aplicar testes online de correção automática e gerenciar notas rapidamente (lançar e editar)[cite: 356].
+    * [cite_start]Compartilhar rotinas, links e repositórios nas áreas de material de estudo[cite: 358].
+    * [cite_start]Automatizar o registro de frequência[cite: 359].
+* **Frustrações / dores:**
+    * [cite_start]Sistemas engessados que falham no alto fluxo e o impedem de aplicar provas simultâneas[cite: 348].
+    * Excesso de burocracia do sistema ou muitos cliques para gerar uma única tarefa.
+* **Cenários de uso típicos:**
+    * [cite_start]Subir materiais extras de estudo no sistema de recomendações de conteúdo[cite: 358, 361].
+    * [cite_start]Responder a múltiplas dúvidas privadas de uma só vez antes da prova[cite: 358].
+* **Resumo da persona:** Roberto procura eficiência; quer um ambiente robusto, estável e ágil que lhe permita dedicar mais tempo ao ensino do que à burocracia do sistema.
+
+#### 2. Não Familiarizado com Tecnologia
+**Sônia Regina**
+* **Perfil:** 58 anos, professora de Sociologia, possui muita bagagem acadêmica, porém habituada aos métodos presenciais (cadernetas em papel).
+* [cite_start]**Função no sistema:** Usuário produtor – gerencia sua disciplina e posta conteúdos para os estudantes[cite: 355].
+* **Nível de conhecimento tecnológico:** Básico. Trabalha com um computador fixo na sala dos professores.
+* **Objetivos e motivações:**
+    * [cite_start]Conseguir aplicar presença e faltas em poucos cliques e sem se confundir[cite: 359].
+    * [cite_start]Postar arquivos PDF de leitura ou vídeos para a disciplina[cite: 358, 360].
+    * [cite_start]Lançar e editar notas de maneira contínua, sem perder dados[cite: 356].
+* **Frustrações / dores:**
+    * [cite_start]Sente-se perdida com dezenas de funcionalidades e opções de layout[cite: 348].
+    * [cite_start]Enfrenta dificuldades quando o aluno solicita o agendamento de uma prova substitutiva e ela não sabe onde aprovar[cite: 360].
+* **Cenários de uso típicos:**
+    * [cite_start]Aplicar frequências logo no fim da aula usando o modo simplificado[cite: 359].
+    * [cite_start]Ler fóruns de dúvida e lançar notas das provas dissertativas manuscritas[cite: 356, 358].
+* **Resumo da persona:** Sônia demanda uma navegação direta e clara, livre de distrações, garantindo que o lado operacional não seja um obstáculo para a sua excelente didática.
+
+#### 3. Com Deficiência Visual
+**Fernando Lima**
+* **Perfil:** 46 anos, professor de Literatura. Possui baixa visão (visão subnormal) e precisa sempre do auxílio de ampliadores de tela.
+* [cite_start]**Função no sistema:** Usuário produtor – elabora provas, corrige materiais e fornece feedback contínuo aos estudantes[cite: 355, 356].
+* **Nível de conhecimento tecnológico:** Intermediário. Conhece bem ferramentas de magnificação de sistema.
+* **Objetivos e motivações:**
+    * [cite_start]Criar questionários e ler respostas dissertativas longas dos alunos com conforto[cite: 355, 356].
+    * [cite_start]Aplicar presenças observando rapidamente os nomes da lista[cite: 359].
+* **Frustrações / dores:**
+    * [cite_start]Fontes pequenas ou em tons pastéis que não entregam o contraste elevado prometido[cite: 349].
+    * O layout "quebrar" ou sobrepor botões quando o zoom da tela é ajustado para 200% ou mais.
+* **Cenários de uso típicos:**
+    * [cite_start]Acessar a área de gestão de atividades para analisar e devolver trabalhos corrigidos[cite: 355].
+    * [cite_start]Visualizar processos de contestação de falta por parte dos alunos[cite: 359].
+* [cite_start]**Resumo da persona:** Fernando precisa urgentemente de um design que priorize a experiência de usuário através do alto contraste na fonte e do layout extremamente responsivo para ampliações[cite: 349].
 
 ---
 
-### Persona 3: O Gestor Acadêmico (Coordenador)
+### Ator 3: Gestores Acadêmicos
+[cite_start]*Utilizaria o software para acompanhar o desenvolvimento dos cursos e dos alunos.* [cite: 354, 388]
 
-* **Nome:** Carlos Almeida
-* **Perfil:** 52 anos, coordenador de cursos de graduação. [cite_start]Lida diretamente com a gestão de turmas, alocação de professores e análise de evasão e desempenho dos alunos. [cite: 39]
-* [cite_start]**Função no sistema:** Usuário administrador e estratégico – extrai relatórios, gerencia a oferta de disciplinas, aprova requerimentos de alunos e ajusta as grades curriculares. [cite: 39]
-* **Nível de conhecimento tecnológico:** Básico a intermediário. Prefere sistemas objetivos e funcionais que entreguem a informação mastigada. [cite_start]Não tem paciência para buscar dados fragmentados em diferentes telas. [cite: 39]
-* [cite_start]**Objetivos e motivações:** * Ter uma visão panorâmica e em tempo real sobre a saúde acadêmica do curso (turmas lotadas, vazias, requerimentos pendentes). [cite: 39]
-    * [cite_start]Tomar decisões gerenciais rápidas baseadas em dados fáceis de acessar. [cite: 39]
-* [cite_start]**Frustrações / dores:** * Sente enorme falta de funcionalidades relevantes de gestão, como *dashboards* ou relatórios cruzados, precisando fazer o trabalho manualmente em planilhas externas. [cite: 39]
-    * [cite_start]Durante as quedas do sistema por alto fluxo, sua sala vira um caos com dezenas de alunos tentando resolver problemas de matrícula presencialmente. [cite: 39]
-* [cite_start]**Cenários de uso típicos:** * Geração de relatórios consolidados de matrículas para verificar a necessidade de abrir ou fechar turmas extras. [cite: 39]
-    * [cite_start]Aprovação diária de requerimentos acadêmicos, como quebra de pré-requisitos e validação de horas complementares. [cite: 39]
-* [cite_start]**Resumo da persona:** Carlos precisa de um sistema robusto que não apenas armazene dados, mas entregue inteligência e funcionalidades de gestão relevantes, além de suportar o volume de acessos para evitar que o atendimento online vire um gargalo físico na secretaria. [cite: 39]
+#### 1. Familiarizado com Tecnologia
+**Juliana Mendes**
+* **Perfil:** 41 anos, Coordenadora de Curso. Perfil analítico e muito conectada a tendências e métricas educacionais.
+* [cite_start]**Função no sistema:** Gestor – acompanha os índices de sucesso acadêmico e as rotinas dos docentes[cite: 354, 362].
+* **Nível de conhecimento tecnológico:** Avançado. Sabe extrair, filtrar e relacionar dados educacionais.
+* **Objetivos e motivações:**
+    * [cite_start]Usufruir da visualização do desempenho do estudante como suporte a suas decisões operacionais[cite: 362, 367].
+    * [cite_start]Acompanhar o nível geral de retenção de alunos decorrente do uso da plataforma[cite: 363].
+    * [cite_start]Cruzar dados de faltas e notas para aplicar alertas preventivos de evasão[cite: 356, 359, 362].
+* **Frustrações / dores:**
+    * [cite_start]Relatórios padronizados e engessados que limitam sua capacidade de pesquisa e filtro de turmas[cite: 348].
+    * [cite_start]Falta de integrações com o sistema legado limitando a visão real da universidade[cite: 368].
+* **Cenários de uso típicos:**
+    * Abrir os painéis do gestor acadêmico na segunda-feira pela manhã para avaliar as turmas com risco de reprovação.
+    * [cite_start]Verificar quais docentes estão com o lançamento de notas atrasado[cite: 356, 362].
+* **Resumo da persona:** Juliana tem uma atuação baseada em evidências. Ela precisa de dados macro e acesso transparente aos desempenhos globais (docentes e discentes) para tomar ações corretivas a tempo.
+
+#### 2. Não Familiarizado com Tecnologia
+**Paulo Ribeiro**
+* **Perfil:** 63 anos, Diretor da unidade. Excelente estrategista, mas gerencia suas atividades principalmente por reuniões e documentos impressos pela secretaria.
+* [cite_start]**Função no sistema:** Gestor – supervisão executiva e suporte institucional[cite: 354, 367].
+* **Nível de conhecimento tecnológico:** Básico. Prefere dashboards (painéis) extremamente resumidos em vez de tabelas extensas.
+* **Objetivos e motivações:**
+    * [cite_start]Acompanhar a saúde geral dos cursos e se as funcionalidades estão retendo alunos de fato[cite: 363].
+    * [cite_start]Analisar reclamações gerais de desempenho via resumos fáceis de ler[cite: 362].
+* **Frustrações / dores:**
+    * [cite_start]Ter que decorar caminhos longos ou configurar filtros sempre que for emitir um demonstrativo[cite: 348].
+* **Cenários de uso típicos:**
+    * [cite_start]Acesso aos demonstrativos de notas e aprovações gerais de um departamento durante uma reunião de colegiado[cite: 356, 362].
+    * [cite_start]Verificar casos atípicos de contestações de notas diretamente por encaminhamento[cite: 357].
+* **Resumo da persona:** Paulo precisa de praticidade extrema. Seu envolvimento com o sistema será pontual, devendo a interface entregar relatórios sumarizados e conclusões consolidadas sem curvas longas de aprendizado.
+
+#### 3. Com Deficiência Visual
+**Cláudia Nogueira**
+* **Perfil:** 52 anos, Coordenadora de Apoio ao Aluno, cega. Lida intimamente com alunos e professores que precisam de adaptações.
+* [cite_start]**Função no sistema:** Gestor – mediadora, acompanhando de perto o desenvolvimento dos alunos de forma mais humanizada[cite: 354, 362].
+* **Nível de conhecimento tecnológico:** Avançado em softwares e periféricos de adaptação.
+* **Objetivos e motivações:**
+    * [cite_start]Visualizar (via leitura de tela) com facilidade o desempenho e perfil detalhado de um estudante no painel gerencial[cite: 354, 362].
+    * [cite_start]Realizar o gerenciamento dos perfis dos usuários em sua interface de suporte[cite: 355].
+* **Frustrações / dores:**
+    * Ferramentas gerenciais que utilizam apenas dashboards visuais (como gráficos sem alternativas textuais).
+    * [cite_start]A impossibilidade de ler relatórios em PDF gerados como imagem pelo sistema[cite: 348].
+* **Cenários de uso típicos:**
+    * [cite_start]Auditar reclamações e acessar os históricos de notas/frequência para conciliar disputas acadêmicas[cite: 357, 359].
+    * Realizar o agendamento de atividades de acolhimento para turmas com métricas abaixo do esperado.
+* **Resumo da persona:** Cláudia é uma gestora essencial e necessita que o portal do gestor apresente as estatísticas e as métricas de forma que os softwares ledores consigam tabular as informações, viabilizando suas ações de apoio.
 
 # User:
 
-Considerando as personas já definidas anteriormente para o sistema acadêmico (Estudante, Professora e Gestor Acadêmico), analise novamente o problema descrito e avalie se existem outros tipos de personas relevantes que também deveriam ser considerados no projeto.
-Problema do sistema:
-O sistema atual possui baixa adesão por parte da comunidade acadêmica devido a problemas como:
-
-
-Interface complexa e pouco intuitiva
-
-Falta de funcionalidades relevantes
-
-Implementação técnica inadequada
-
-Lentidão do sistema
-
-Falta de estabilidade em momentos de alto fluxo de usuários
-Tarefa
-
-Avalie se existem outros perfis de usuários importantes que ainda não foram representados pelas personas já criadas.
-
-Caso existam, proponha novas personas adicionais que possam interagir com o sistema.
-
-Para cada nova persona:
-Explique por que ela é relevante
-
-Descreva como ela utiliza o sistema
-
-Indique quais problemas do sistema mais impactam essa persona
-
-Estruture cada nova persona seguindo o mesmo modelo utilizado anteriormente (nome, perfil, objetivos, frustrações, necessidades e cenários de uso).
-Importante
-
-Não repita as personas já existentes.
-
-Considere diferentes níveis de interação com o sistema (usuários primários, secundários e administrativos).
-
-Pense em outros membros da comunidade acadêmica que também podem depender do sistema.
-Objetivo
-Identificar personas adicionais que possam ter sido negligenciadas, garantindo que o sistema seja projetado considerando todos os perfis relevantes de usuários.
+transforme as personas de deficiência visual em 4 (daltônicos, cegos, baixa visão e sensibilidade a luz), essas englobaram todos os 3 atores, não sendo necessário criar personas diferentes para cada um
 
 # Model:
 
-Analisando o ecossistema de uma instituição de ensino, percebemos que o sucesso de um sistema acadêmico não depende apenas da tríade Estudante-Professor-Coordenador. Existem atores nos bastidores que sustentam a operação diária e que sofrem intensamente com a má qualidade do software. 
-
-Quando um sistema é lento, instável ou difícil de usar, o impacto transborda do ambiente digital para o físico (filas, chamados de TI, estresse no ambiente de trabalho). 
-
-Por isso, identifiquei **duas personas adicionais cruciais** que foram negligenciadas na primeira rodada e que representam os usuários operacionais e administrativos: a **Assistente de Secretaria** e o **Analista de Suporte de TI**.
-
-Abaixo, explico a relevância de cada uma e apresento seus perfis detalhados.
+Aqui estão as 4 personas focadas exclusivamente em diferentes necessidades visuais (cegueira, baixa visão, daltonismo e sensibilidade à luz). Conforme solicitado, elas foram distribuídas de modo a englobar os três atores principais do sistema (Alunos, Professores e Gestores Acadêmicos), substituindo as personas anteriores com deficiência visual.
 
 ---
 
-### 1. A Assistente de Secretaria (Operacional / Atendimento)
+### 1. Cega (Total ausência de visão)
+**Ator Representado: Aluno**
 
-**Por que ela é relevante:** A secretaria é a linha de frente da instituição. Quando o sistema falha para o aluno ou não tem uma funcionalidade (ex: autoatendimento para emissão de documentos), o aluno vai até a secretaria. Se o sistema é lento e complexo, o tempo de atendimento por aluno triplica, gerando filas, insatisfação geral e sobrecarga de trabalho humano para resolver problemas que deveriam ser automatizados.
-
-**Como utiliza o sistema:** Uso intensivo e diário (8 horas por dia). Navega por múltiplos módulos ao mesmo tempo (financeiro, acadêmico, cadastro).
-
-**Problemas que mais a impactam:** Lentidão do sistema e interface complexa. Como ela executa tarefas repetitivas, cada "clique a mais" ou segundo de carregamento se acumula em horas de atraso no fim do dia. A instabilidade durante matrículas é seu maior pesadelo, pois transforma a secretaria em um caos presencial.
-
-#### Persona 4: Joana Silva
-* **Perfil:** 38 anos, assistente de atendimento na secretaria acadêmica há 5 anos. Lida diariamente com dezenas de alunos no balcão e via e-mail. É comunicativa, mas vive sob constante pressão de tempo.
-* **Função no sistema:** Usuária operacional intensiva. Executa processos de retificação de notas, emissão de documentos oficiais (históricos, atestados), ajustes financeiros e suporte direto às dúvidas burocráticas dos alunos.
-* **Nível de conhecimento tecnológico:** Intermediário. Não é especialista em tecnologia, mas conhece todos os "atalhos" e "gambiarras" do sistema atual por pura repetição e necessidade de sobrevivência.
+**Amanda Costa**
+* **Perfil:** 24 anos, estudante de Direito. Nasceu cega e acessa a plataforma via notebook utilizando leitor de tela avançado (como o NVDA) e o celular via VoiceOver. 
+* **Função no sistema:** Usuário consumidor – consome materiais, realiza avaliações online e acompanha a vida acadêmica.
+* **Nível de conhecimento tecnológico:** Avançado em softwares de acessibilidade. Navega rapidamente utilizando atalhos de teclado.
 * **Objetivos e motivações:**
-    * Atender às demandas dos alunos com rapidez, evitando que as filas se acumulem.
-    * Ter uma visão unificada (uma "tela do aluno") onde possa ver a situação acadêmica e financeira de relance, sem precisar abrir cinco abas diferentes.
-    * Gerar documentos oficiais com assinaturas digitais de forma ágil e sem erros de formatação.
+    * Ler PDFs e materiais de estudo diretamente pela plataforma de forma autônoma.
+    * Realizar provas e testes online sem depender da ajuda de colegas ou transcritores.
+    * Receber notificações de prazos e notas que sejam lidas claramente pelo sistema.
 * **Frustrações / dores:**
-    * Odeia a lentidão crônica do sistema, que a faz ficar olhando para uma tela de carregamento enquanto um aluno frustrado aguarda do outro lado do balcão.
-    * A interface pouco intuitiva exige que ela memorize caminhos confusos nos menus para tarefas rotineiras.
-    * Sofre picos extremos de estresse quando o sistema cai por alto fluxo (ex: dia de matrícula), pois toda a frustração dos alunos recai sobre o atendimento presencial.
+    * Materiais didáticos postados como "imagens escaneadas" sem reconhecimento óptico de caracteres (OCR) ou texto alternativo (Alt Text).
+    * Botões de interface sem rótulos (ex: um ícone de "disquete" para salvar que o leitor de tela lê apenas como "botão não rotulado").
+    * Pop-ups de erro visuais que não são anunciados pelo leitor de tela.
 * **Cenários de uso típicos:**
-    * Forçar a matrícula manual de um aluno concluinte em uma turma que o sistema acusa estar lotada (quebra de pré-requisito).
-    * Verificar pendências de biblioteca ou financeiras antes de liberar um atestado de transferência.
-    * Emitir e imprimir um histórico escolar completo.
-* **Resumo da persona:** Joana precisa de um sistema rápido, estável e com fluxos de trabalho otimizados. Para ela, o software deve ser uma ferramenta que acelera o atendimento, e não um obstáculo burocrático que gera mais filas na secretaria.
+    * Fazer download de artigos acadêmicos na véspera da prova.
+    * Participar de fóruns de discussão usando a navegação por tabulação (tecla TAB).
+* **Resumo da persona:** Amanda não enxerga a interface, ela a "ouve". Depende que o Campus Virtual siga rígidos padrões de código (WCAG/ARIA) para que a navegação faça sentido lógico.
 
 ---
 
-### 2. O Analista de Suporte de TI (Administrativo / Técnico)
+### 2. Baixa Visão (Visão Subnormal)
+**Ator Representado: Professor**
 
-**Por que ele é relevante:** O time de TI é responsável por manter o sistema "respirando". Se a implementação técnica é inadequada e a estabilidade é baixa, a TI passa 100% do tempo "apagando incêndios" em vez de evoluir o ecossistema tecnológico da faculdade. Além disso, se a interface do aluno/professor é ruim, chovem chamados de suporte para dúvidas básicas de usabilidade.
-
-**Como utiliza o sistema:** Acessa os bastidores (backend), painéis de administração, logs de erro, e gerencia permissões e integrações de banco de dados.
-
-**Problemas que mais o impactam:** Implementação técnica inadequada e falta de estabilidade. Código legado, falta de documentação das regras de negócio e infraestrutura mal otimizada dificultam a escalabilidade do sistema em períodos de alto fluxo (picos de acesso).
-
-#### Persona 5: Marcos Mendes
-* **Perfil:** 29 anos, analista de suporte técnico Nível 2. Trabalha na central de TI da instituição. É pragmático, analítico e frequentemente o último recurso quando algo dá errado e ninguém mais consegue resolver.
-* **Função no sistema:** Usuário administrador/técnico. Gerencia permissões de acesso, investiga bugs reportados pela comunidade, realiza extração de dados complexos e atua na contenção de danos durante quedas do sistema.
-* **Nível de conhecimento tecnológico:** Avançado/Especialista. Domina infraestrutura, bancos de dados e lógica de programação.
+**Fernando Lima**
+* **Perfil:** 46 anos, professor de Literatura. Devido a uma condição degenerativa, possui baixa visão (visão subnormal) e depende de ferramentas nativas de magnificação (zoom da tela ajustado entre 200% e 400%).
+* **Função no sistema:** Usuário produtor – elabora provas, corrige materiais dissertativos e lança faltas.
+* **Nível de conhecimento tecnológico:** Intermediário. Focado em configurar seu computador para o máximo de conforto visual.
 * **Objetivos e motivações:**
-    * Garantir a estabilidade (uptime) da aplicação, especialmente nos primeiros dias de cada semestre.
-    * Resolver chamados de forma definitiva (identificar a causa raiz do bug, e não apenas dar um paliativo).
-    * Que o sistema tenha autonomia para que os próprios alunos resolvam problemas básicos (como reset de senha fácil) sem precisarem abrir um ticket no suporte.
+    * Criar questionários no sistema com conforto e sem cansar a vista.
+    * Ler respostas longas dos alunos e fornecer feedback contínuo.
+    * Visualizar a lista de chamada e lançar frequências com agilidade.
 * **Frustrações / dores:**
-    * A implementação técnica inadequada gera "bugs fantasmas" (ex: a professora jura que salvou a nota, mas o banco de dados não registrou), que são difíceis de rastrear.
-    * Sente-se de mãos atadas por causa da arquitetura engessada que não suporta o volume de acessos simultâneos.
-    * Fica sobrecarregado com milhares de chamados de suporte do tipo "como eu faço para me matricular?", apenas porque a interface atual é péssima e confunde os usuários.
+    * Layouts que "quebram" completamente, sobrepõem botões ou escondem menus essenciais quando o zoom do navegador é ativado.
+    * Fontes finas ou em tons pastéis de baixo contraste (ex: cinza claro sobre fundo branco) que se tornam invisíveis para ele.
 * **Cenários de uso típicos:**
-    * Investigar os logs do servidor para descobrir por que a funcionalidade de emissão de boletos parou de funcionar de madrugada.
-    * Ajustar permissões em massa (ex: liberar acesso ao módulo de diários para todos os professores novatos do semestre).
-    * Monitorar o consumo de CPU e memória dos servidores durante as primeiras horas do período de matrículas.
-* **Resumo da persona:** Marcos precisa de um software com arquitetura moderna, rastreabilidade clara de erros (logs) e uma interface final tão intuitiva que reduza drasticamente o volume de chamados de suporte (Help Desk) na instituição.
+    * Acessar o diário de classe no final do dia para lançar notas e frequências usando uma tela muito ampliada.
+* **Resumo da persona:** Fernando precisa de um design altamente responsivo, tipografia legível e contraste elevado, garantindo que o sistema continue funcional mesmo quando fortemente ampliado.
+
+---
+
+### 3. Daltonismo (Deficiência de Visão de Cores)
+**Ator Representado: Gestor Acadêmico**
+
+**Ricardo Mendes**
+* **Perfil:** 41 anos, Coordenador de Curso. Possui Deuteranopia (dificuldade severa em distinguir tons de verde e vermelho). Usa o sistema diariamente em seu escritório para tomada de decisões.
+* **Função no sistema:** Gestor – acompanha os índices de sucesso acadêmico, retenção e desempenho geral das turmas.
+* **Nível de conhecimento tecnológico:** Avançado. Trabalha muito com dados, dashboards e relatórios.
+* **Objetivos e motivações:**
+    * Interpretar rapidamente gráficos de desempenho de dezenas de turmas.
+    * Identificar professores com atraso no lançamento de notas ou alunos em risco de evasão.
+* **Frustrações / dores:**
+    * Dashboards e gráficos gerenciais que utilizam **apenas a cor** para transmitir informações (ex: vermelho para turmas "em risco" e verde para "no prazo"), fazendo com que ele não consiga diferenciar o status.
+    * Mensagens de erro ou sucesso baseadas apenas na mudança de cor da fonte.
+* **Cenários de uso típicos:**
+    * Abrir os painéis estatísticos institucionais na segunda-feira pela manhã para emitir relatórios semanais para a diretoria.
+* **Resumo da persona:** Ricardo precisa que a interface não dependa exclusivamente de cores para comunicar estados. Ele precisa de ícones complementares (ex: um "X" para erro, um "Check" para sucesso) e gráficos com texturas ou rótulos de texto claros.
+
+---
+
+### 4. Sensibilidade à Luz (Fotofobia)
+**Ator Representado: Aluno (Pós-graduação)**
+
+**Helena Castro**
+* **Perfil:** 28 anos, aluna de mestrado em Engenharia. Devido a enxaquecas crônicas e astigmatismo severo, possui alta sensibilidade à luz (fotofobia) e fadiga visual rápida frente às telas.
+* **Função no sistema:** Usuário consumidor e pesquisador – passa horas consecutivas lendo e produzindo dentro da plataforma.
+* **Nível de conhecimento tecnológico:** Avançado. Utiliza softwares para diminuir a luz azul do monitor, mas depende de interfaces bem projetadas.
+* **Objetivos e motivações:**
+    * Estudar de forma prolongada, à noite, lendo textos e fóruns diretamente no Campus Virtual.
+    * Navegar entre as páginas de forma fluida sem gatilhos para dor de cabeça.
+* **Frustrações / dores:**
+    * Plataformas com fundos brancos "puros" e brilhantes, sem opção nativa de "Modo Escuro" (Dark Mode).
+    * Animações bruscas, transições de tela piscantes ou pop-ups muito luminosos que causam desconforto físico imediato.
+* **Cenários de uso típicos:**
+    * Leitura contínua de extensa bibliografia e redação de respostas longas no sistema durante a madrugada.
+* **Resumo da persona:** Helena necessita urgentemente de um botão de "Modo Escuro" oficial da plataforma, com tons de cinza escuro bem balanceados, e um sistema sem animações exageradas ou clarões repentinos.

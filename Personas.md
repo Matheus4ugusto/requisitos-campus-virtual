@@ -1,87 +1,35 @@
-### Persona 1: O Estudante Universitário
+### Ator 1: Alunos
+[cite_start]*Usuários principais que se beneficiam de um ambiente interativo e acessível.* [cite: 352, 385]
 
-* **Nome:** Rafael Costa
-* **Perfil:** 21 anos, aluno do 5º período de Engenharia. Estuda em período integral e concilia as aulas com um estágio meio período. Acessa sistemas majoritariamente pelo celular. 
-* **Função no sistema:** Usuário consumidor – realiza matrículas, consulta notas e faltas, emite boletos e baixa materiais de estudo. 
-* **Nível de conhecimento tecnológico:** Avançado. É um nativo digital, acostumado com aplicativos ágeis, e tem tolerância quase zero para sistemas que não são responsivos ou demoram a carregar. 
-* **Objetivos e motivações:** * Conseguir realizar sua matrícula nas disciplinas desejadas rapidamente e sem perder a vaga. 
-    * Acompanhar seu desempenho acadêmico (notas e faltas) em tempo real pelo smartphone. 
-    * Resolver pendências burocráticas sem precisar enfrentar filas na secretaria física. 
-* **Frustrações / dores:** * Fica extremamente irritado quando o sistema cai por instabilidade durante o período de matrícula (alto fluxo de usuários). 
-    * Acha a interface muito complexa e não adaptada para telas menores (mobile), exigindo muito zoom e rolagem. 
-    * Sofre com a lentidão excessiva apenas para baixar um simples PDF de material de aula. 
-* **Cenários de uso típicos:** * Acessar o portal correndo no primeiro minuto de abertura das matrículas. 
-    * Verificar as notas finais pelo celular enquanto está no transporte público. 
-* **Resumo da persona:** Rafael precisa de um sistema rápido, perfeitamente adaptado para o celular e que seja à prova de quedas durante períodos críticos. Para ele, a tecnologia deve ser invisível e eficiente. 
-
----
-
-### Persona 2: A Professora
-
-* **Nome:** Profa. Helena Martins
-* **Perfil:** 45 anos, professora titular que ministra aulas teóricas e práticas para diversas turmas. Tem uma rotina intensa, dividindo-se entre preparo de aulas, correções e pesquisas acadêmicas. 
-* **Função no sistema:** Usuária criadora e gestora de conteúdo da disciplina – lança notas, registra presenças, faz upload de materiais e envia comunicados às turmas. 
-* **Nível de conhecimento tecnológico:** Intermediário. Utiliza bem o computador e softwares de escritório no dia a dia, mas se sente insegura e perde muito tempo quando se depara com interfaces pouco intuitivas ou cheias de menus escondidos. 
-* **Objetivos e motivações:** * Lançar notas e presenças de turmas grandes da forma mais eficiente possível para focar na docência. 
-    * Manter a comunicação clara com os alunos e centralizar o material didático em um só lugar seguro. 
-* **Frustrações / dores:** * Perde horas preciosas tentando descobrir como operar uma interface engessada e complexa para tarefas simples, como fechar o diário de classe. 
-    * A implementação técnica inadequada faz com que o sistema frequentemente trave e não salve as notas que ela acabou de digitar, obrigando-a a refazer o trabalho. 
-* **Cenários de uso típicos:** * Lançamento em lote de notas e frequências na semana de fechamento do semestre (período de alta lentidão). 
-    * Upload de múltiplos arquivos e planos de ensino nas semanas que antecedem o início das aulas. 
-* **Resumo da persona:** Helena precisa de uma interface limpa, onde as tarefas repetitivas (como chamada e notas) exijam o mínimo de cliques possíveis, além de um sistema estável que lhe passe confiança de que seu trabalho não será perdido. 
-
----
-
-### Persona 3: O Gestor Acadêmico (Coordenador)
-
-* **Nome:** Carlos Almeida
-* **Perfil:** 52 anos, coordenador de cursos de graduação. Lida diretamente com a gestão de turmas, alocação de professores e análise de evasão e desempenho dos alunos. 
-* **Função no sistema:** Usuário administrador e estratégico – extrai relatórios, gerencia a oferta de disciplinas, aprova requerimentos de alunos e ajusta as grades curriculares. 
-* **Nível de conhecimento tecnológico:** Básico a intermediário. Prefere sistemas objetivos e funcionais que entreguem a informação mastigada. Não tem paciência para buscar dados fragmentados em diferentes telas. 
-* **Objetivos e motivações:** * Ter uma visão panorâmica e em tempo real sobre a saúde acadêmica do curso (turmas lotadas, vazias, requerimentos pendentes). 
-    * Tomar decisões gerenciais rápidas baseadas em dados fáceis de acessar. 
-* **Frustrações / dores:** * Sente enorme falta de funcionalidades relevantes de gestão, como *dashboards* ou relatórios cruzados, precisando fazer o trabalho manualmente em planilhas externas. 
-    * Durante as quedas do sistema por alto fluxo, sua sala vira um caos com dezenas de alunos tentando resolver problemas de matrícula presencialmente. 
-* **Cenários de uso típicos:** * Geração de relatórios consolidados de matrículas para verificar a necessidade de abrir ou fechar turmas extras. 
-    * Aprovação diária de requerimentos acadêmicos, como quebra de pré-requisitos e validação de horas complementares. 
-* **Resumo da persona:** Carlos precisa de um sistema robusto que não apenas armazene dados, mas entregue inteligência e funcionalidades de gestão relevantes, além de suportar o volume de acessos para evitar que o atendimento online vire um gargalo físico na secretaria. 
-
----
-
-### Persona 4: Joana Silva
-* **Perfil:** 38 anos, assistente de atendimento na secretaria acadêmica há 5 anos. Lida diariamente com dezenas de alunos no balcão e via e-mail. É comunicativa, mas vive sob constante pressão de tempo.
-* **Função no sistema:** Usuária operacional intensiva. Executa processos de retificação de notas, emissão de documentos oficiais (históricos, atestados), ajustes financeiros e suporte direto às dúvidas burocráticas dos alunos.
-* **Nível de conhecimento tecnológico:** Intermediário. Não é especialista em tecnologia, mas conhece todos os "atalhos" e "gambiarras" do sistema atual por pura repetição e necessidade de sobrevivência.
+#### 1. Familiarizado com Tecnologia
+**Lucas Martins**
+* **Perfil:** 20 anos, estudante de Engenharia de Computação. [cite_start]Acessa o Campus Virtual a todo instante, mesclando o uso entre um notebook potente e seu smartphone[cite: 352].
+* [cite_start]**Função no sistema:** Usuário consumidor – envia atividades, responde provas online, baixa conteúdos e interage com notificações automáticas[cite: 355, 360].
+* **Nível de conhecimento tecnológico:** Avançado. Nativo digital, espera que as interfaces funcionem de maneira muito rápida e domina atalhos no teclado.
 * **Objetivos e motivações:**
-    * Atender às demandas dos alunos com rapidez, evitando que as filas se acumulem.
-    * Ter uma visão unificada (uma "tela do aluno") onde possa ver a situação acadêmica e financeira de relance, sem precisar abrir cinco abas diferentes.
-    * Gerar documentos oficiais com assinaturas digitais de forma ágil e sem erros de formatação.
+    * [cite_start]Visualizar as notas e contestá-las de forma ágil[cite: 357].
+    * [cite_start]Receber recomendações de conteúdos baseadas em suas dificuldades[cite: 361].
+    * [cite_start]Fazer download de conteúdos em vídeo para acesso offline no trajeto da faculdade[cite: 360, 361].
 * **Frustrações / dores:**
-    * Odeia a lentidão crônica do sistema, que a faz ficar olhando para uma tela de carregamento enquanto um aluno frustrado aguarda do outro lado do balcão.
-    * A interface pouco intuitiva exige que ela memorize caminhos confusos nos menus para tarefas rotineiras.
-    * Sofre picos extremos de estresse quando o sistema cai por alto fluxo (ex: dia de matrícula), pois toda a frustração dos alunos recai sobre o atendimento presencial.
+    * [cite_start]Fica muito frustrado com instabilidade no sistema em dias de entrega de grandes trabalhos[cite: 348].
+    * [cite_start]Odeia interfaces complexas que exigem muitos cliques para enviar um simples anexo[cite: 348].
 * **Cenários de uso típicos:**
-    * Forçar a matrícula manual de um aluno concluinte em uma turma que o sistema acusa estar lotada (quebra de pré-requisito).
-    * Verificar pendências de biblioteca ou financeiras antes de liberar um atestado de transferência.
-    * Emitir e imprimir um histórico escolar completo.
-* **Resumo da persona:** Joana precisa de um sistema rápido, estável e com fluxos de trabalho otimizados. Para ela, o software deve ser uma ferramenta que acelera o atendimento, e não um obstáculo burocrático que gera mais filas na secretaria.
+    * [cite_start]Enviar o arquivo da atividade pelo celular de madrugada[cite: 355].
+    * [cite_start]Usar os fóruns públicos para ajudar colegas com dúvidas em disciplinas[cite: 358].
+* **Resumo da persona:** Lucas precisa de um sistema rápido, de alta disponibilidade e com notificações em tempo real, que acompanhe o seu ritmo acelerado e otimize o seu aprendizado prático.
 
----
-
-### Persona 5: Marcos Mendes
-* **Perfil:** 29 anos, analista de suporte técnico Nível 2. Trabalha na central de TI da instituição. É pragmático, analítico e frequentemente o último recurso quando algo dá errado e ninguém mais consegue resolver.
-* **Função no sistema:** Usuário administrador/técnico. Gerencia permissões de acesso, investiga bugs reportados pela comunidade, realiza extração de dados complexos e atua na contenção de danos durante quedas do sistema.
-* **Nível de conhecimento tecnológico:** Avançado/Especialista. Domina infraestrutura, bancos de dados e lógica de programação.
+#### 2. Não Familiarizado com Tecnologia
+**Carlos Silva**
+* **Perfil:** 48 anos, estudante de Administração no período noturno, voltando a estudar após 20 anos. Utiliza o computador da biblioteca e o celular.
+* [cite_start]**Função no sistema:** Usuário consumidor – consome os materiais da disciplina e verifica seu andamento no curso[cite: 352].
+* **Nível de conhecimento tecnológico:** Básico. Sente insegurança ao utilizar plataformas educacionais e teme "apagar alguma coisa" por engano.
 * **Objetivos e motivações:**
-    * Garantir a estabilidade (uptime) da aplicação, especialmente nos primeiros dias de cada semestre.
-    * Resolver chamados de forma definitiva (identificar a causa raiz do bug, e não apenas dar um paliativo).
-    * Que o sistema tenha autonomia para que os próprios alunos resolvam problemas básicos (como reset de senha fácil) sem precisarem abrir um ticket no suporte.
+    * [cite_start]Encontrar os materiais de estudo compartilhados de forma fácil[cite: 358].
+    * [cite_start]Enviar atividades corretamente, com confirmação visual de sucesso[cite: 355].
+    * [cite_start]Ter facilidade para enviar dúvidas privadas ao professor[cite: 358].
 * **Frustrações / dores:**
-    * A implementação técnica inadequada gera "bugs fantasmas" (ex: a professora jura que salvou a nota, mas o banco de dados não registrou), que são difíceis de rastrear.
-    * Sente-se de mãos atadas por causa da arquitetura engessada que não suporta o volume de acessos simultâneos.
-    * Fica sobrecarregado com milhares de chamados de suporte do tipo "como eu faço para me matricular?", apenas porque a interface atual é péssima e confunde os usuários.
+    * [cite_start]Não entende como funciona a contestação de faltas ou como agendar provas substitutivas online[cite: 359, 360].
 * **Cenários de uso típicos:**
-    * Investigar os logs do servidor para descobrir por que a funcionalidade de emissão de boletos parou de funcionar de madrugada.
-    * Ajustar permissões em massa (ex: liberar acesso ao módulo de diários para todos os professores novatos do semestre).
-    * Monitorar o consumo de CPU e memória dos servidores durante as primeiras horas do período de matrículas.
-* **Resumo da persona:** Marcos precisa de um software com arquitetura moderna, rastreabilidade clara de erros (logs) e uma interface final tão intuitiva que reduza drasticamente o volume de chamados de suporte (Help Desk) na instituição.
+    * [cite_start]Verificar a sua frequência e notas no final da semana[cite: 357, 359].
+    * [cite_start]Responder a atividades propostas com um documento de texto simples[cite: 355].
+* **Resumo da persona:** Carlos necessita de uma plataforma de design intuitivo, com fluxos lineares, comunicação fácil com o docente e que dê segurança em suas interações.
