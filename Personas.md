@@ -69,7 +69,8 @@ Responsáveis pela gestão de disciplinas e atividades, facilitando o ensino.
     * Aplicar frequências logo no fim da aula usando o modo simplificado.
     * Ler fóruns de dúvida e lançar notas das provas dissertativas manuscritas.
 * *Resumo da persona:* Sônia demanda uma navegação direta e clara, livre de distrações, garantindo que o lado operacional não seja um obstáculo para a sua excelente didática.
-## Personas de gestores
+### Ator 3: Gestores
+Utilizam o software para acompanhar o desenvolvimento dos cursos e dos alunos
 
 #### 1. Familiarizado com Tecnologia
 **Juliana Mendes**
