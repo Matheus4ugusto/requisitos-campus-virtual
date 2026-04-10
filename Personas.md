@@ -3,7 +3,7 @@ Usuários principais que se beneficiam de um ambiente interativo e acessível.
 
 #### 1. Familiarizado com Tecnologia
 *Lucas Martins*
-* *Perfil:* 20 anos, estudante de Engenharia de Computação. Acessa o Campus Virtual a todo instante, mesclando o uso entre um notebook potente e seu smartphone[.
+* *Perfil:* 20 anos, estudante de Engenharia de Computação. Acessa o Campus Virtual a todo instante, mesclando o uso entre um notebook potente e seu smartphone.
 * *Função no sistema:* Usuário consumidor – envia atividades, responde provas online, baixa conteúdos e interage com notificações automáticas.
 * *Nível de conhecimento tecnológico:* Avançado. Nativo digital, espera que as interfaces funcionem de maneira muito rápida e domina atalhos no teclado.
 * *Objetivos e motivações:*
